@@ -3,7 +3,7 @@ This driver board can control up to 16 servos via I2C. It is highly recommended 
 
 
 #### Demo code:
-The following demo code will slowly speed up the motor, everytime the motor will go forward first, then go back.
+In this demo I connected the servo to the channel number 11, so the ser.position() first arguement is 11. 1000 us = 1ms
 ```  
 from machine import I2C, Pin
 import servo
